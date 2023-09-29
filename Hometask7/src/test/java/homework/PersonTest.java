@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PersonTest {
     @Test
-    public void PersonData() {
+    public void personData() {
         Person person1 = new Person("Will Smith", 48);
         System.out.println("Name: " + person1.name + " Age:" + person1.age);
 

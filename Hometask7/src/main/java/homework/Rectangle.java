@@ -13,4 +13,12 @@ public class Rectangle {
         this.width = width;
         this.height = height;
     }
+
+    public double calculatePerimeter() {
+        return (this.width + this.height) * 2;
+    }
+
+    public double calculateSquare() {
+        return this.width * this.height;
+    }
 }
